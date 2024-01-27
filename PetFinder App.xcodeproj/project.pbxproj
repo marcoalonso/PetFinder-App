@@ -11,6 +11,8 @@
 		6C4C429E2B64D1D8008BF897 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4C429D2B64D1D8008BF897 /* ContentView.swift */; };
 		6C4C42A02B64D1D9008BF897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4C429F2B64D1D9008BF897 /* Assets.xcassets */; };
 		6C4C42A32B64D1D9008BF897 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4C42A22B64D1D9008BF897 /* Preview Assets.xcassets */; };
+		6C4C42AA2B64D22E008BF897 /* PetFinderApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4C42A92B64D22D008BF897 /* PetFinderApiClient.swift */; };
+		6C4C42AC2B64D540008BF897 /* PetfinderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4C42AB2B64D540008BF897 /* PetfinderResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		6C4C429D2B64D1D8008BF897 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6C4C429F2B64D1D9008BF897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C4C42A22B64D1D9008BF897 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C4C42A92B64D22D008BF897 /* PetFinderApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderApiClient.swift; sourceTree = "<group>"; };
+		6C4C42AB2B64D540008BF897 /* PetfinderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetfinderResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 		6C4C428F2B64D1D8008BF897 = {
 			isa = PBXGroup;
 			children = (
+				6C4C42A92B64D22D008BF897 /* PetFinderApiClient.swift */,
 				6C4C429A2B64D1D8008BF897 /* PetFinder App */,
 				6C4C42992B64D1D8008BF897 /* Products */,
 			);
@@ -55,6 +60,7 @@
 				6C4C429D2B64D1D8008BF897 /* ContentView.swift */,
 				6C4C429F2B64D1D9008BF897 /* Assets.xcassets */,
 				6C4C42A12B64D1D9008BF897 /* Preview Content */,
+				6C4C42AB2B64D540008BF897 /* PetfinderResponse.swift */,
 			);
 			path = "PetFinder App";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4C42AA2B64D22E008BF897 /* PetFinderApiClient.swift in Sources */,
 				6C4C429E2B64D1D8008BF897 /* ContentView.swift in Sources */,
+				6C4C42AC2B64D540008BF897 /* PetfinderResponse.swift in Sources */,
 				6C4C429C2B64D1D8008BF897 /* PetFinder_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
